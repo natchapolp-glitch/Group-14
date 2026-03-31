@@ -87,14 +87,6 @@ npm install
 npm run dev
 ```
 
-### 🌐 Access Points
-
-- **Frontend**: http://localhost:5173
-- **Backend API**: http://localhost:8000
-- **API Documentation**: http://localhost:8000/docs
-
----
-
 ## 🏛️ Architecture Overview
 
 ### 5-Layer Network Architecture
@@ -284,8 +276,7 @@ npm run lint         # TypeScript linting
 
 - **[Architecture Specification]([Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md](https://github.com/natchapolp-glitch/Group-14/blob/main/Doc/Sprint%20Alpha%20%2B%201.md#architecture_specmd))** - Complete technical design
 - **[Implementation Plan]([Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md](https://github.com/natchapolp-glitch/Group-14/blob/main/Doc/Sprint%20Alpha%20%2B%201.md#implementation_planmd))** - 4-week sprint planning
-
-
+- **[TS-Com Project Documentation Suite]([[Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md](https://github.com/natchapolp-glitch/Group-14/blob/main/Doc/Sprint%20Alpha%20%2B%201.md#implementation_planmd](https://github.com/natchapolp-glitch/Group-14/blob/main/Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md#ts-com-project-documentation-suite)))** 
 ---
 
 ## 🗺️ Roadmap
