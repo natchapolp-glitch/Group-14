@@ -11,9 +11,6 @@
 **AI Semantic Interpreter สำหรับแปลสัญญาณชีวภาพของสัตว์**
 
 *CP352005 Networks - กลุ่ม 14 - 4-Week Sprint Project*
-
-[📖 Documentation](#documentation) • [🚀 Quick Start](#quick-start) • [🏗️ Architecture](#architecture) • [👥 Team](#team)
-
 </div>
 
 ---
@@ -39,6 +36,7 @@ network/
 │   ├── 📄 main.py                 # Main API application
 │   ├── 📄 requirements.txt        # Python dependencies
 │   └── 📁 interpreter/            # Signal Analysis Modules
+│       ├── 📄 __init__.py         # Package init
 │       ├── 🎵 sound_analyzer.py   # Audio signal processing
 │       ├── 🏃 movement_analyzer.py # Movement pattern analysis
 │       ├── 💓 biosignal_analyzer.py # Biometric signal processing
@@ -50,12 +48,16 @@ network/
 │   └── 📁 src/                   # Source code
 │       ├── 📁 components/        # React components
 │       ├── 📁 pages/             # Application pages
+│       ├── 📁 data/              # Data files
+│       ├── 📁 utils/             # Utility functions
+│       ├── 📄 main.tsx           # Entry point
+│       ├── 📄 index.css          # Global styles
 │       └── 📄 App.tsx            # Main application
 │
 ├── 📁 Doc/                       # Project Documentation
 │   ├── 📄 TS-Com Project Documentation Suite (1).docx.md
-│   ├── 📄 Animal–AI Network.docx
-│   └── 📄 Sprint Alpha + 1 (1).docx
+│   ├── 📄 Animal–AI Network.md
+│   └── 📄 Sprint Alpha + 1.md
 │
 ├── 📄 .gitignore                 # Git ignore rules
 └── 📄 README.md                  # This file
@@ -149,8 +151,6 @@ Cost = α*priority_weight + β*species_similarity + γ*network_distance
 |--------|----------|-------------|
 | `GET` | `/api/health` | System health check |
 | `POST` | `/api/analyze` | Analyze biological signals |
-| `GET` | `/api/species` | List supported species |
-| `POST` | `/api/sensor/register` | Register new sensor |
 
 ### Request/Response Example
 
@@ -217,37 +217,19 @@ Cost = α*priority_weight + β*species_similarity + γ*network_distance
 - **React Router** - Navigation
 
 ### AI & Signal Processing
-- **Librosa** - Audio analysis
-- **NumPy** - Numerical computing
-- **SciPy** - Signal processing
-- **Scikit-learn** - Machine learning
+- **Custom Analyzers** - Built-in signal analysis modules
+- **Pydantic** - Data validation & serialization
 
 ---
 
 ## 🧪 Testing & Development
 
-### Running Tests
-
-```bash
-# Backend tests
-cd backend
-pytest tests/ -v
-
-# Frontend tests
-cd frontend
-npm test
-```
-
 ### Development Workflow
 
 ```bash
 # Development servers
-npm run dev          # Frontend dev server
-uvicorn main:app --reload  # Backend dev server
-
-# Code formatting
-black backend/       # Python formatting
-npm run lint         # TypeScript linting
+cd frontend && npm run dev          # Frontend dev server
+cd backend && uvicorn main:app --reload  # Backend dev server
 ```
 
 ---
@@ -285,9 +267,9 @@ npm run lint         # TypeScript linting
 ## 📚 Documentation
 
 - **[Architecture Specification](Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md)** - Complete technical design
-- **[Implementation Plan](Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md)** - 4-week sprint planning
-- **[API Reference](http://localhost:8000/docs)** - Interactive API docs
-- **[User Guide](docs/user_guide.md)** - Usage instructions
+- **[Sprint Planning](Doc/Sprint%20Alpha%20%2B%201.md)** - Sprint Alpha + 1 planning
+- **[Project Overview](Doc/Animal%E2%80%93AI%20Network.md)** - Animal-AI Network documentation
+- **[API Reference](http://localhost:8000/docs)** - Interactive API docs (run backend first)
 
 ---
 
