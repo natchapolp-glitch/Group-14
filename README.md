@@ -324,15 +324,4 @@ This project is developed for educational purposes as part of CP352005 Networks 
 
 ---
 
-<div align="center">
-
-**🦁 Made with ❤️ for Animal Communication Research**
-
-[![GitHub stars](https://img.shields.io/github/stars/username/network.svg?style=social&label=Star)](https://github.com/username/network)
-[![GitHub forks](https://img.shields.io/github/forks/username/network.svg?style=social&label=Fork)](https://github.com/username/network)
-
-</div>
-
----
-
 
