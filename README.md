@@ -12,8 +12,6 @@
 
 *CP352005 Networks - กลุ่ม 14 - 4-Week Sprint Project*
 
-[📖 Documentation](#documentation) • [🚀 Quick Start](#quick-start) • [🏗️ Architecture](#architecture) • [👥 Team](#team)
-
 </div>
 
 ---
@@ -284,10 +282,9 @@ npm run lint         # TypeScript linting
 
 ## 📚 Documentation
 
-- **[Architecture Specification](Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md)** - Complete technical design
-- **[Implementation Plan](Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md)** - 4-week sprint planning
-- **[API Reference](http://localhost:8000/docs)** - Interactive API docs
-- **[User Guide](docs/user_guide.md)** - Usage instructions
+- **[Architecture Specification]([Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md](https://github.com/natchapolp-glitch/Group-14/blob/main/Doc/Sprint%20Alpha%20%2B%201.md#architecture_specmd))** - Complete technical design
+- **[Implementation Plan]([Doc/TS-Com%20Project%20Documentation%20Suite%20(1).docx.md](https://github.com/natchapolp-glitch/Group-14/blob/main/Doc/Sprint%20Alpha%20%2B%201.md#implementation_planmd))** - 4-week sprint planning
+
 
 ---
 
